@@ -58,7 +58,7 @@
   background: rgba(165, 174, 189, 0.1);
   border-radius: 12px;
   border: 1px solid rgba(165, 174, 189, 0.2);
-  margin-top: 12px;
+  margin-top: 30px;
 }
 
 .input:hover {
@@ -76,7 +76,7 @@
   background: rgba(165, 174, 189, 0.1);
   border-radius: 12px;
   border: 2px solid #ff0044;
-  margin-top: 12px;
+  margin-top: 30px;
 }
 
 input:focus {
@@ -113,14 +113,14 @@ input:focus {
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
-  margin-top: 2px;
+  margin-top: 5px;
 }
 
 #close {
   position: absolute;
   display: block;
   bottom: 14px;
-  right: 20px;
+  right: 30px;
 }
 
 /* test join classes */
@@ -142,5 +142,5 @@ input:focus {
   border-radius: 12px;
   color: #ffffff;
   border: none;
-  margin-top: 12px;
+  margin-top: 30px;
 }
