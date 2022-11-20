@@ -107,7 +107,13 @@ const Form = () => {
             )}
           </div>
 
-          <button id="button" type="submit">
+          {/* Join classes test */}
+
+          <button
+            id="button"
+            type="submit"
+            className={joinClassNames(["button-part1", "button-part2"])}
+          >
             {!loading ? (
               <div className="button-content">
                 <p>Login </p>
@@ -119,23 +125,6 @@ const Form = () => {
               </div>
             )}
           </button>
-
-          {/* <button
-            id="button"
-            type="submit"
-            className={joinClassNames(["button-part1", "button-part2"])}
-          >
-            {!errors.email ? (
-              <div className="button-content">
-                <p>Login </p>
-                <img src={log} alt="login" id="in" />
-              </div>
-            ) : (
-              <div className="spinner-container">
-                <img src={loader} alt="loader" />
-              </div>
-            )}
-          </button> */}
         </div>
       </form>
     </div>
