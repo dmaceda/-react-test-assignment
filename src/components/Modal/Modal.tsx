@@ -1,4 +1,4 @@
-import logout from "../assets/out.svg";
+import logout from "../../assets/images/out.svg";
 import "./Modal.css";
 import { useNavigate } from "react-router-dom";
 

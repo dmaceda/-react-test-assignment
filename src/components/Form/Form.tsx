@@ -1,11 +1,11 @@
 import { useForm } from "react-hook-form";
 import "./Form.css";
-import log from "../assets/in.svg";
-import close from "../assets/close.svg";
-import loader from "../assets/loader.svg";
+import log from "../../assets/images/in.svg";
+import close from "../../assets/images/close.svg";
+import loader from "../../assets/images/loader.svg";
 import { useState } from "react";
-import { login } from "../api/index";
-import { joinClassNames } from "../utils/joinClassNames";
+import { login } from "../../api/index";
+import { joinClassNames } from "../../utils/joinClassNames";
 import { useNavigate } from "react-router-dom";
 
 type Person = {

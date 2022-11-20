@@ -1,6 +1,5 @@
-import mercuryLogo from "../assets/logo.svg";
-import Form from "../components/Form";
-import "./Home.css";
+import mercuryLogo from "../assets/images/logo.svg";
+import Form from "../components/Form/Form";
 
 const Home = () => {
   return (

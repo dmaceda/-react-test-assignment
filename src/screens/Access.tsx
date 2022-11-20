@@ -1,6 +1,5 @@
-import mercuryLogo from "../assets/logo.svg";
-import Modal from "../components/Modal";
-import "./Home.css";
+import mercuryLogo from "../assets/images/logo.svg";
+import Modal from "../components/Modal/Modal";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
