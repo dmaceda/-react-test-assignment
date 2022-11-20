@@ -110,7 +110,7 @@ const Form = () => {
           {/* Join classes test */}
 
           <button
-            id="button"
+            id={!loading ? "button" : "button-without-shadow"}
             type="submit"
             className={joinClassNames(["button-part1", "button-part2"])}
           >
