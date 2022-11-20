@@ -1,6 +1,6 @@
+import { Routes, Route } from "react-router-dom";
 import Access from "./screens/Access";
 import Home from "./screens/Home";
-import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (

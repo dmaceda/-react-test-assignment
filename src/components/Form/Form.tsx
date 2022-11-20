@@ -1,12 +1,15 @@
 import { useForm } from "react-hook-form";
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
+
 import "./Form.css";
+
+import { login } from "../../api/index";
+import { joinClassNames } from "../../utils/joinClassNames";
+
 import log from "../../assets/images/in.svg";
 import close from "../../assets/images/close.svg";
 import loader from "../../assets/images/loader.svg";
-import { useState } from "react";
-import { login } from "../../api/index";
-import { joinClassNames } from "../../utils/joinClassNames";
-import { useNavigate } from "react-router-dom";
 
 type Person = {
   email: string;

@@ -1,6 +1,6 @@
-import logout from "../../assets/images/out.svg";
-import "./Modal.css";
 import { useNavigate } from "react-router-dom";
+import "./Modal.css";
+import logout from "../../assets/images/out.svg";
 
 const Modal = () => {
   const navigate = useNavigate();

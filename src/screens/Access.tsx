@@ -1,7 +1,7 @@
-import mercuryLogo from "../assets/images/logo.svg";
-import Modal from "../components/Modal/Modal";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
+import mercuryLogo from "../assets/images/logo.svg";
+import Modal from "../components/Modal/Modal";
 
 const Access = () => {
   const navigate = useNavigate();
